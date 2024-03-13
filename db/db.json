@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "description": "Gammer XL 580",
+      "price": 100,
+      "inStok": true
+    },
+    {
+      "id": 2,
+      "name": "Phone",
+      "description": "Phone XL 580",
+      "price": 50000000,
+      "inStok": true
+    },
+    {
+      "id": 3,
+      "name": "PlayStation",
+      "description": "PlayStation XL 580",
+      "price": 800,
+      "inStok": false
+    },
+    {
+      "id": "395e",
+      "name": "Jhoni Manuel Sanchez Suarez",
+      "description": "crecrewcwercr",
+      "price": "1",
+      "inStock": true
+    },
+    {
+      "id": "6d59",
+      "name": "Jhoni Manuel Sanchez Suarez",
+      "description": "crecrewcwercr",
+      "price": "1",
+      "inStock": true
+    }
+  ]
+}
