@@ -14,5 +14,15 @@ const postProducts = async (data) => {
     console.log(res)
     return res.data
 }
+const deleteProducts = async (id) => {
+    const res = await productApi.delete(`/products/${id}`)
+    console.log(res)
+    return res.data
+}
+const putProducts = async (data) => {
+    const res = await productApi.put(`/products/${data.id}`, data)
+    console.log(res)
+    return res.data
+}
 
-export {getProducts, postProducts}
+export {getProducts, postProducts,deleteProducts, putProducts}
